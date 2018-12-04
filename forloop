@@ -1,0 +1,277 @@
+[ec2-user@ip-172-31-90-44 ~]$ cat /etc/issue
+Amazon Linux AMI release 2018.03
+Kernel \r on an \m
+
+[ec2-user@ip-172-31-90-44 ~]$ python -v
+# installing zipimport hook
+import zipimport # builtin
+# installed zipimport hook
+# /usr/lib64/python2.7/site.pyc matches /usr/lib64/python2.7/site.py
+import site # precompiled from /usr/lib64/python2.7/site.pyc
+# /usr/lib64/python2.7/os.pyc matches /usr/lib64/python2.7/os.py
+import os # precompiled from /usr/lib64/python2.7/os.pyc
+import errno # builtin
+import posix # builtin
+# /usr/lib64/python2.7/posixpath.pyc matches /usr/lib64/python2.7/posixpath.py
+import posixpath # precompiled from /usr/lib64/python2.7/posixpath.pyc
+# /usr/lib64/python2.7/stat.pyc matches /usr/lib64/python2.7/stat.py
+import stat # precompiled from /usr/lib64/python2.7/stat.pyc
+# /usr/lib64/python2.7/genericpath.pyc matches /usr/lib64/python2.7/genericpath.py
+import genericpath # precompiled from /usr/lib64/python2.7/genericpath.pyc
+# /usr/lib64/python2.7/warnings.pyc matches /usr/lib64/python2.7/warnings.py
+import warnings # precompiled from /usr/lib64/python2.7/warnings.pyc
+# /usr/lib64/python2.7/linecache.pyc matches /usr/lib64/python2.7/linecache.py
+import linecache # precompiled from /usr/lib64/python2.7/linecache.pyc
+# /usr/lib64/python2.7/types.pyc matches /usr/lib64/python2.7/types.py
+import types # precompiled from /usr/lib64/python2.7/types.pyc
+# /usr/lib64/python2.7/UserDict.pyc matches /usr/lib64/python2.7/UserDict.py
+import UserDict # precompiled from /usr/lib64/python2.7/UserDict.pyc
+# /usr/lib64/python2.7/_abcoll.pyc matches /usr/lib64/python2.7/_abcoll.py
+import _abcoll # precompiled from /usr/lib64/python2.7/_abcoll.pyc
+# /usr/lib64/python2.7/abc.pyc matches /usr/lib64/python2.7/abc.py
+import abc # precompiled from /usr/lib64/python2.7/abc.pyc
+# /usr/lib64/python2.7/_weakrefset.pyc matches /usr/lib64/python2.7/_weakrefset.py
+import _weakrefset # precompiled from /usr/lib64/python2.7/_weakrefset.pyc
+import _weakref # builtin
+# /usr/lib64/python2.7/copy_reg.pyc matches /usr/lib64/python2.7/copy_reg.py
+import copy_reg # precompiled from /usr/lib64/python2.7/copy_reg.pyc
+# /usr/lib64/python2.7/traceback.pyc matches /usr/lib64/python2.7/traceback.py
+import traceback # precompiled from /usr/lib64/python2.7/traceback.pyc
+# /usr/lib64/python2.7/sysconfig.pyc matches /usr/lib64/python2.7/sysconfig.py
+import sysconfig # precompiled from /usr/lib64/python2.7/sysconfig.pyc
+# /usr/lib64/python2.7/re.pyc matches /usr/lib64/python2.7/re.py
+import re # precompiled from /usr/lib64/python2.7/re.pyc
+# /usr/lib64/python2.7/sre_compile.pyc matches /usr/lib64/python2.7/sre_compile.py
+import sre_compile # precompiled from /usr/lib64/python2.7/sre_compile.pyc
+import _sre # builtin
+# /usr/lib64/python2.7/sre_parse.pyc matches /usr/lib64/python2.7/sre_parse.py
+import sre_parse # precompiled from /usr/lib64/python2.7/sre_parse.pyc
+# /usr/lib64/python2.7/sre_constants.pyc matches /usr/lib64/python2.7/sre_constants.py
+import sre_constants # precompiled from /usr/lib64/python2.7/sre_constants.pyc
+dlopen("/usr/lib64/python2.7/lib-dynload/_localemodule.so", 2);
+import _locale # dynamically loaded from /usr/lib64/python2.7/lib-dynload/_localemodule.so
+# /usr/lib64/python2.7/_sysconfigdata.pyc matches /usr/lib64/python2.7/_sysconfigdata.py
+import _sysconfigdata # precompiled from /usr/lib64/python2.7/_sysconfigdata.pyc
+import encodings # directory /usr/lib64/python2.7/encodings
+# /usr/lib64/python2.7/encodings/__init__.pyc matches /usr/lib64/python2.7/encodings/__init__.py
+import encodings # precompiled from /usr/lib64/python2.7/encodings/__init__.pyc
+# /usr/lib64/python2.7/codecs.pyc matches /usr/lib64/python2.7/codecs.py
+import codecs # precompiled from /usr/lib64/python2.7/codecs.pyc
+import _codecs # builtin
+# /usr/lib64/python2.7/encodings/aliases.pyc matches /usr/lib64/python2.7/encodings/aliases.py
+import encodings.aliases # precompiled from /usr/lib64/python2.7/encodings/aliases.pyc
+# /usr/lib64/python2.7/encodings/utf_8.pyc matches /usr/lib64/python2.7/encodings/utf_8.py
+import encodings.utf_8 # precompiled from /usr/lib64/python2.7/encodings/utf_8.pyc
+Python 2.7.14 (default, May  2 2018, 18:31:34)
+[GCC 4.8.5 20150623 (Red Hat 4.8.5-11)] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+dlopen("/usr/lib64/python2.7/lib-dynload/readline.so", 2);
+import readline # dynamically loaded from /usr/lib64/python2.7/lib-dynload/readline.so
+>>>
+>>>
+>>>
+>>>
+>>> x=[]
+>>>
+>>> print(x)
+[]
+>>> print type(x)
+<type 'list'>
+>>> y=list()
+>>> print(y)
+[]
+>>> print (type(y))
+<type 'list'>
+>>> print(len(y))
+0
+>>> z=[10,20,30,40]
+>>> print(z)
+[10, 20, 30, 40]
+>>> print(id(x))
+140665063504712
+>>> x+y
+[]
+>>> x=100
+>>> y==200
+False
+>>> y=200
+>>> x+y
+300
+>>> ara*3
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'ara' is not defined
+>>> 3=4
+  File "<stdin>", line 1
+SyntaxError: can't assign to literal
+>>> 3+4
+7
+>>> raj*3
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'raj' is not defined
+>>> quit()
+# clear __builtin__._
+# clear sys.path
+# clear sys.argv
+# clear sys.ps1
+# clear sys.ps2
+# clear sys.exitfunc
+# clear sys.exc_type
+# clear sys.exc_value
+# clear sys.exc_traceback
+# clear sys.last_type
+# clear sys.last_value
+# clear sys.last_traceback
+# clear sys.path_hooks
+# clear sys.path_importer_cache
+# clear sys.meta_path
+# clear sys.flags
+# clear sys.float_info
+# restore sys.stdin
+# restore sys.stdout
+# restore sys.stderr
+# cleanup __main__
+# cleanup[1] encodings
+# cleanup[1] site
+# cleanup[1] sysconfig
+# cleanup[1] abc
+# cleanup[1] _weakrefset
+# cleanup[1] sre_constants
+# cleanup[1] re
+# cleanup[1] _codecs
+# cleanup[1] _warnings
+# cleanup[1] zipimport
+# cleanup[1] _sysconfigdata
+# cleanup[1] encodings.utf_8
+# cleanup[1] codecs
+# cleanup[1] readline
+# cleanup[1] _locale
+# cleanup[1] signal
+# cleanup[1] traceback
+# cleanup[1] posix
+# cleanup[1] encodings.aliases
+# cleanup[1] exceptions
+# cleanup[1] _weakref
+# cleanup[1] sre_compile
+# cleanup[1] _sre
+# cleanup[1] sre_parse
+# cleanup[2] copy_reg
+# cleanup[2] posixpath
+# cleanup[2] errno
+# cleanup[2] _abcoll
+# cleanup[2] types
+# cleanup[2] genericpath
+# cleanup[2] stat
+# cleanup[2] warnings
+# cleanup[2] UserDict
+# cleanup[2] os.path
+# cleanup[2] linecache
+# cleanup[2] os
+# cleanup sys
+# cleanup __builtin__
+# cleanup ints: 19 unfreed ints
+# cleanup floats
+[ec2-user@ip-172-31-90-44 ~]$ python
+Python 2.7.14 (default, May  2 2018, 18:31:34)
+[GCC 4.8.5 20150623 (Red Hat 4.8.5-11)] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> len(raj)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'raj' is not defined
+>>> raj*3
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'raj' is not defined
+>>> x+y
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'x' is not defined
+>>> quit()
+[ec2-user@ip-172-31-90-44 ~]$ ls
+loverajarani4091.pem
+[ec2-user@ip-172-31-90-44 ~]$ vi python
+[ec2-user@ip-172-31-90-44 ~]$ mv python python.py
+[ec2-user@ip-172-31-90-44 ~]$ python python.py
+300
+0
+[ec2-user@ip-172-31-90-44 ~]$ nano xyz.py
+[ec2-user@ip-172-31-90-44 ~]$ ls
+loverajarani4091.pem  python.py  xyz.py
+[ec2-user@ip-172-31-90-44 ~]$ python xyz.py
+40000
+-300
+[ec2-user@ip-172-31-90-44 ~]$ nano forloop.py
+[ec2-user@ip-172-31-90-44 ~]$ python forloop.py
+  File "forloop.py", line 2
+    for p in x
+             ^
+SyntaxError: invalid syntax
+[ec2-user@ip-172-31-90-44 ~]$
+Display all 1323 possibilities? (y or n)
+[ec2-user@ip-172-31-90-44 ~]$ nano forloop.py
+[ec2-user@ip-172-31-90-44 ~]$ python forloop.py
+  File "forloop.py", line 3
+    print(p)
+        ^
+IndentationError: expected an indented block
+[ec2-user@ip-172-31-90-44 ~]$ nano forloop.py
+[ec2-user@ip-172-31-90-44 ~]$ python forloop.py
+  File "forloop.py", line 2
+    for p in x;
+              ^
+SyntaxError: invalid syntax
+[ec2-user@ip-172-31-90-44 ~]$ nano forloop.py
+[ec2-user@ip-172-31-90-44 ~]$ python forloop.py
+  File "forloop.py", line 3
+    print p
+        ^
+IndentationError: expected an indented block
+[ec2-user@ip-172-31-90-44 ~]$ nano forloop.py
+[ec2-user@ip-172-31-90-44 ~]$ python forloop.py
+  File "forloop.py", line 3
+    print(p)
+        ^
+IndentationError: expected an indented block
+[ec2-user@ip-172-31-90-44 ~]$ nano forloop.py
+[ec2-user@ip-172-31-90-44 ~]$ python forloop.py
+  File "forloop.py", line 3
+    print (p)
+        ^
+IndentationError: expected an indented block
+[ec2-user@ip-172-31-90-44 ~]$ nano forloop.py
+[ec2-user@ip-172-31-90-44 ~]$ python forloop.py
+  File "forloop.py", line 3
+    print(x)w
+            ^
+SyntaxError: invalid syntax
+[ec2-user@ip-172-31-90-44 ~]$ nano forloop.py
+[ec2-user@ip-172-31-90-44 ~]$ python forloop.py
+apple
+banana
+cherry
+[ec2-user@ip-172-31-90-44 ~]$ nano forloop.py
+[ec2-user@ip-172-31-90-44 ~]$ python forloop.py
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+apple
+banana
+cherry
+[ec2-user@ip-172-31-90-44 ~]$ cat forloop.py
+x=range(10)
+for p in x:
+ print(p)
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+[ec2-user@ip-172-31-90-44 ~]$
+[ec2-user@ip-172-31-90-44 ~]$
