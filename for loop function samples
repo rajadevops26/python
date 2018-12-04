@@ -1,0 +1,90 @@
+Authenticating with public key "imported-openssh-key"
+     ┌────────────────────────────────────────────────────────────────────┐
+     │                        • MobaXterm 11.0 •                          │
+     │            (SSH client, X-server and networking tools)             │
+     │                                                                    │
+     │ ➤ SSH session to ec2-user@54.158.65.95                             │
+     │   • SSH compression : ✔                                            │
+     │   • SSH-browser     : ✔                                            │
+     │   • X11-forwarding  : ✘  (disabled or not supported by server)     │
+     │   • DISPLAY         : 192.168.0.3:0.0                              │
+     │                                                                    │
+     │ ➤ For more info, ctrl+click on help or visit our website           │
+     └────────────────────────────────────────────────────────────────────┘
+
+Last login: Tue Dec  4 05:56:17 2018 from 183.82.216.197
+
+       __|  __|_  )
+       _|  (     /   Amazon Linux AMI
+      ___|\___|___|
+
+https://aws.amazon.com/amazon-linux-ami/2018.03-release-notes/
+9 package(s) needed for security, out of 17 available
+Run "sudo yum update" to apply all updates.
+[ec2-user@ip-172-31-90-44 ~]$ ls
+forloop.py  loverajarani4091.pem  python.py  xyz.py
+[ec2-user@ip-172-31-90-44 ~]$ vi forloop.py
+[ec2-user@ip-172-31-90-44 ~]$ python forloop.py
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+10
+12
+14
+16
+18
+[ec2-user@ip-172-31-90-44 ~]$ cat forloop.py
+x=range(10)
+for p in x:
+ print(p)
+y=range(10,20)
+for q in y:
+ print(q)
+z=range(10,20,2)
+for r in z:
+ print(r)
+a=range(40,50,-2)
+for b in a:
+ print(b)
+ print(b*x)
+[ec2-user@ip-172-31-90-44 ~]$ vi forloop.py
+[ec2-user@ip-172-31-90-44 ~]$ python forloop.py
+python is a open source s/w
+PYTHON IS A OPEN SOURCE S/W
+python is a open source s/w
+Python Is A Open Source S/W
+False
+python is repopular in 2016
+python
+('python', 6)
+('python', 6, 'PYTHON')
+is
+('is', 2)
+('is', 2, 'IS')
+repopular
+('repopular', 9)
+('repopular', 9, 'REPOPULAR')
+in
+('in', 2)
+('in', 2, 'IN')
+2016
+('2016', 4)
+('2016', 4, '2016')
+[ec2-user@ip-172-31-90-44 ~]$
